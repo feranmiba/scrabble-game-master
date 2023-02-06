@@ -1,0 +1,64 @@
+/*small phones to small tablets: from 481 to 560px*/
+@media only screen and (max-width: 1300px) {
+    .outcome {
+        width: 50%;
+    }
+ }
+ @media only screen and (max-width: 886px) {
+    .outcome {
+        width: 65%;
+    }
+ }
+ @media only screen and (max-width: 750px) {
+    .outcome {
+        width: 75%;
+    }
+ }
+ @media only screen and (max-width: 550px) {
+    .outcome {
+        width: 90%;
+        padding-right: 50px;
+    }
+    .message {
+        font-size: 16px;
+    }
+    .container {
+        width: 380px;
+        
+    }
+    .ok {
+        margin-left: 95%;
+    }
+    .content  .word {
+        font-size: 30px;    
+        letter-spacing: 18px;
+    }
+ }
+ @media only screen and (max-width: 500px) {
+    .outcome {
+        width: 90%;
+        padding-right: 50px;
+    }
+    .message {
+        font-size: 16px;
+    }
+#word { margin-left: -10%;   }
+#scrabble{  margin-left: 8%;}
+#game { margin-left: 60%;  }
+ }
+    @media only screen and (max-width: 375px) {
+        .outcome {
+            width: 95%;
+            padding-right: 90px;
+        }
+        .message {
+            font-size: 15px;
+        }
+        .container {
+            width: 340px;           
+        }
+        .content  .word {
+            font-size: 28px;    
+            letter-spacing: 15px;
+        }
+ }

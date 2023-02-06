@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/queries.css">
+    <script type="module" src="/js/script.js" defer></script>
+    <script type="module" src="/js/word.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/brett-jordan-MHS7g_q-6mE-unsplash.jpg">
+    <title>Amiola-scrabble-game</title>
+</head>
+<body>
+
+    <!--INTRO TO THE GAME-->
+    <div class="name">
+        <p id="word">word</p>
+        <p id="scrabble">scrabble</p>
+        <p id="game">game</p>
+        <p class="moved">
+            <button class="get">
+                get started
+            </button>
+        </p>
+    </div>
+
+    <!--THE GAME-->
+    <div class="container hidden">
+        <h2>Word Scrabble</h2>   
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">HINT: <span></span></p>
+                <p class="time">Time Left: <span><b class="sec">30</b>s</span></p>
+            </div>
+            <input type="text" placeholder="Enter a valid word"/>
+            <div class="buttons">
+                <button class="refresh-word">Refresh Word</button>
+                <button class="check-word">Check Word</button>
+            </div>
+        </div>    
+    </div>
+<!--THE OUTCOMES-->
+    <div class="overlay hidden"></div>
+    <section class="outcome hidden">
+        <div class="again">
+        <p class="message"></p>
+        <p class="ok"><button class="okay">ok</button></p>
+    </div>
+    </section>
+   
+</body>
+</html>
